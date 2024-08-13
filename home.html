@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gayatri Vidya Parishad</title>
+    <!-- Link to Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+            <img src="gvp-logo.jpeg" alt="Logo" class="logo">
+            </a>
+        </div>
+        <select class="browse-dropdown">
+            <option value="entity">Browse by entity</option>
+        </select>
+        <h1 class="main-heading">GAYATRI VIDYA PARISHAD</h1>
+        <nav class="nav-menu">
+            <button class="ask-button">
+                <span class="material-icons">help_outline</span> Ask
+            </button>
+            <button class="share-button">
+                <span class="material-icons">share</span> Share
+            </button>
+            <button class="login-button">Login</button>
+        </nav>
+        <button class="hamburger" id="hamburger">
+            <span class="material-icons">menu</span>
+        </button>
+    </header>
+
+    <nav class="navigation-menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Institutions</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">R&D</a></li>
+            <li><a href="#">Industry-Institution Collaboration</a></li>
+            <li><a href="#">Placements</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">News/Events</a></li>
+            <li><a href="#">Contact Us</a></li>
+
+        </ul>
+    </nav>
+
+    <section class="home-section">
+        <div class="blue-container">
+            <h2 class="container-heading">Empowering Minds, Shaping Future</h2>
+            <div class="search-bar-container">
+            <input type="text" class="search-bar" placeholder="Search Colleges, Institutions, Schools...">
+            <span class="material-icons search-icon">search</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="news-section">
+        <h2 class="news-heading">Latest News and Notifications</h2>
+        <div class="news-container">
+            <button class="scroll-button left-arrow">
+                <span class="material-icons">chevron_left</span>
+            </button>
+            <div class="news-scroll">
+                <div class="news-item">
+                    <p class="news-title">NEET UG Counselling 2024 dates for 15% AIQ seats today; N...</p>
+                    <p class="news-date">July 24, 2024, 08:36 AM IST</p>
+                </div>
+                <div class="news-item">
+                    <p class="news-title">NEET-UG 2024: SC asks NTA to revise merit list as per IIT Delhi...</p>
+                    <p class="news-date">July 24, 2024, 07:45 AM IST</p>
+                </div>
+                <!-- Add more news items here -->
+            </div>
+            <button class="scroll-button right-arrow">
+                <span class="material-icons">chevron_right</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="text-column">
+            <h2>Welcome to Gayatri Vidya Parishad..!</h2>
+            <p>Gayatri Vidya Parishad Society was founded by eminent educationists, academicians, industrialists, and those with a touch of human values to empower the young generation with high-quality technical education. The main objective of the society is to impart quality education as well as facilitate a value-based career to the blooming engineers of the future generation.</p>
+            <p>Professor B. Sarveswara Rao, the nonagenarian and a former Vice-Chancellor of Acharya Nagarjuna University and a renowned economist, was the founder President, and Dr. B. Swami, octogenarian, the Second President.</p>
+        </div>
+        <div class="images-column">
+            <div class="image-row">
+                <div class="image-container">
+                    <a href="mvp.html">
+                    <img src="MVP.jpg" alt="MVP Campus">
+                    <p class="image-caption">MVP Campus</p>
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="Engg-campus.html">
+                    <img src="Engg-campus.jpg" alt="Engineering Campus">
+                    <p class="image-caption">Engineering Campus</p>
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="medical.html">
+                    <img src="medical-campus.jpg" alt="Medical Campus">
+                    <p class="image-caption">Medical Campus</p>
+                    </a>
+                </div>
+            </div>
+            <div class="image-row">
+                <div class="image-container">
+                    <a href="rushikonda.html">
+                    <img src="rushikonda-campus.jpg" alt="Rushikonda Campus">
+                    <p class="image-caption">Rushikonda Campus</p>
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="women.html">
+                    <img src="women-engg.jpg" alt="Women Engineering Campus">
+                    <p class="image-caption">Women Engineering Campus</p>
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="mlbt.html">
+                    <img src="MLBT.jpg" alt="MLBT School">
+                    <p class="image-caption">MLBT School</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024, GVP. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="mobile-nav" id="mobileNav">
+        <button class="close-btn" id="closeBtn">&times;</button>
+        <select class="mobile-browse-dropdown">
+            <option value="entity">Browse by entity</option>
+        </select>
+        <button class="mobile-ask-button">
+            <span class="material-icons">help_outline</span> Ask
+        </button>
+        <button class="mobile-share-button">
+            <span class="material-icons">share</span> Share
+        </button>
+        <button class="mobile-login-button">Login</button>
+    </div>
+
+    <script src="rough.js">
+    </script>
+</body>
+</html>
